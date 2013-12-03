@@ -1,0 +1,15 @@
+CROSS_HOST="x86_64-w64-mingw32"
+ORIG_PN="libgsf"
+inherit cross gnome2
+
+NAME="mingw64-x86_64-libgsf1"
+VERSION=1.14.28
+RELEASE=2
+CATEGORY="Devel"
+SUMMARY="GNOME Structured File library for Win64 toolchain"
+DESCRIPTION="The project aims to provide an efficient extensible I/O
+abstraction for dealing with different structured file formats."
+
+PATCH_URI="1.14.24-export-symbols.patch"
+
+MAKEOPTS+=" bin_PROGRAMS= manpage_DATA= thumbnailer_DATA= "
