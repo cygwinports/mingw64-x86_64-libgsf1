@@ -1,0 +1,11 @@
+--- origsrc/libgsf-1.14.29/configure.ac	2013-08-01 17:38:11.000000000 -0500
++++ src/libgsf-1.14.29/configure.ac	2014-03-12 21:17:40.208575700 -0500
+@@ -49,7 +49,7 @@ LT_INIT([win32-dll])
+ 
+ AC_FUNC_FSEEKO
+ AC_SYS_LARGEFILE
+-AC_PATH_PROG(PKG_CONFIG, pkg-config, no)
++PKG_PROG_PKG_CONFIG
+ 
+ dnl Gettext/i18n stuff
+ 
