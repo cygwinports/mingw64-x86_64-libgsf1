@@ -3,7 +3,7 @@ ORIG_PN="libgsf"
 inherit cross gnome2
 
 NAME="mingw64-x86_64-libgsf1"
-VERSION=1.14.41
+VERSION=1.14.42
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="GNOME Structured File library for Win64 toolchain"
